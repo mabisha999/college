@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sh1{
+    display:flex;
+    place-items: center;
+    justify-content: center;
+    
+    margin-left: 400px;
+    
+    
+}
+
+.sh{
+background-color: lightpink;
+}
+.sh1 p{
+    padding: 10px;
+    
+    
+}
+.sh2{
+    display:flex;
+    place-items: center;
+    justify-content: center;
+    margin-right: 400px;
+ 
+
+}
+.sh2 h4{
+    
+    color:darkorchid;
+    font-size: 20px;
+}
+.menu11{
+    list-style-type: none;
+    display: flex;
+    margin-left: 200px;
+    color:white;
+}
+.menu11 li{
+    padding:20px;
+}
+.sh3{
+    background-color: lightsalmon;
+    
+}
+.w1{
+    font-size: 30px;
+    font-weight: 30px;
+}
+.w2{
+    font-size: 20px;
+}
+
+ 
+.play2{
+    margin-top: 30px;
+}
+
+
+.play1{
+    padding:10px;
+    
+    
+}
+.play{
+ 
+   padding:15px;
+   margin-bottom: 30px;
+    width:300px;
+  margin-left:-140px;
+  padding-bottom: -100px;
+ border-radius: 20px;
+ display: flex;
+ height:500px;
+
+}
+
+.outer{
+    display: flex;
+}
+.inleft,.inright{ 
+flex:50%;
+}
+.inleft{
+    padding: 20px;
+}
+/* Styles for the outer container */
+.inright {
+   
+overflow: hidden;
+  
+}
+
+/* Styles for the Marquee component itself */
+.mark {
+    height: 200px; /* Adjust this value as needed for your design */
+
+    
+    
+   
+}
