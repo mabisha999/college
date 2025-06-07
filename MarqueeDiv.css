@@ -1,0 +1,28 @@
+.marquee-container {
+  width: 100%; /* Or a specific width */
+  overflow: hidden; /* Hides content outside the container */
+  white-space: nowrap; /* Ensures content stays on one line */
+  box-sizing: border-box; /* Include padding/border in element's total width */
+}
+
+.marquee-content {
+  display: inline-block; /* Allows content to flow horizontally */
+  padding-left: 100%; /* Starts content off-screen to the right */
+  animation: marquee var(--marquee-speed) linear infinite;
+  animation-direction: var(--marquee-direction) == 'left' ? normal : reverse; /* Control direction */
+}
+
+/* Keyframes for the marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Optional: For right-to-left marquee */
+.marquee-content[style*="--marquee-direction: right"] {
+  animation-direction: reverse; /* Explicitly reverse for right */
+}
